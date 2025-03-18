@@ -1,0 +1,81 @@
+body {
+    /* Cor de fundo no site */
+    /* background-color: blue; */
+    /* Imagem de fundo */
+    background-image: url("imagens/fundo.jpg");
+    /* Propriedade que define a repetiação da imagem no fundo */
+    background-repeat: no-repeat;
+    /* Deixar a imagem fixa no fundo */
+    background-attachment: fixed;
+    /* Forçar que a imagem ocupe 100% da lagura do site */
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    text-align: justify;
+}
+
+.box {
+
+    /* Define a cor de fundo da seção */
+    background-color: #FFFFFF;
+    /* Defino a largura máximo da seção */
+    max-width: 1000px;
+    /* Centralizar a seção no site */
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    /* Propriedade individuais */
+    /* margin-top: 0; */
+    /* margin-right: auto; */
+    /* margin-bottom: 0; */
+    /* margin-left: auto; */
+
+    /* margin: 0 auto 0 auto; */
+
+    /* preenchimento interno do elemento HTML */
+    padding: 30px;
+
+    /* Arredondamento dos ângulos do elemento HTML */
+    border-radius: 50px;
+
+    /* Elimina vazamento de elemento em relação ao container pai */
+    overflow: hidden;
+
+}
+
+.box img{
+    /* define largura da imagem */
+    width: 150px;
+    /* Aplica flutuação da imagem para a esquerda */
+    float: left;
+    margin-right: 20px;
+}
+
+#box-html{
+    /* Define uma borda colorida na seção */
+    border: 5px solid rgb(252, 83, 5);
+}
+
+#box-css{
+    /* Define uma borda colorida na seção */
+    border: 5px solid rgb(5, 83, 252);
+}
+
+#box-js{
+    
+    /* Define uma borda colorida na seção */
+    border: 5px solid rgb(252, 186, 5);
+}
