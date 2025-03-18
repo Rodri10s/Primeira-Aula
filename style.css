@@ -79,3 +79,15 @@ p{
     /* Define uma borda colorida na seção */
     border: 5px solid rgb(252, 186, 5);
 }
+
+#box-html h2 {
+    color: rgb(252, 83, 5);
+}
+
+#box-css h2 {
+    color: rgb(5, 83, 252);
+}
+
+#box-js h2 {
+    color: rgb(252, 186, 5);
+}
